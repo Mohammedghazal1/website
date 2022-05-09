@@ -101,7 +101,7 @@ section{
     color: #fff;
     font-size: 1.7em;
     padding-right: 30px;
-    
+
 }
 
 .title{
@@ -172,7 +172,7 @@ text-align: center;
 }
 .project-card:hover .project-image {
     opacity: 0.9;
-  
+
 }
 
 .project-image img{

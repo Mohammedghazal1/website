@@ -1,8 +1,6 @@
 
    
-<!DOCTYPE html>
-<html>
-  <head>
+<head>
     <style>
     .ballpit {
       position: absolute;
@@ -17,9 +15,19 @@
       position: absolute;
       border-radius: 50%;
     }
+    .ball2 {
+      position: absolute;
+      border-radius: 50%;
+    }
     .controls {
       position: absolute;
       left: 50px;
+      top: 20px;
+      z-index: 2;
+    }
+    .controls2 {
+      position: absolute;
+      left: 220px;
       top: 20px;
       z-index: 2;
     }
@@ -28,10 +36,15 @@
   <body>
     <div class="ballpit">
       <div class="ball"></div>
+        <div class="ball2"></div>
     </div>
     <div class="controls">
       <button onclick="constructBall()" class="makeBall">Make a Ball</button>
       <button onclick="move()" class="makeBall">Move Ball</button>
+    </div>
+    <div class="controls2">
+      <button onclick="constructBall2()" class="makeBall2">Make a Ball 2</button>
+      <button onclick="move2()" class="makeBall2">Move Ball 2</button>
     </div>
     <script src="ballrun.js"></script>
   </body>

@@ -66,8 +66,8 @@ section{
     
 }
 .links .projects p{
-    font-size: 20px;
-    color: red;
+    font-size: 25px;
+    color:black;
 }
 .links .projects > div{
     float: left;

@@ -48,7 +48,7 @@ section{
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url(/images/background1.jpeg) no-repeat ;
+    background: url(/images/background2.jpg) no-repeat ;
     background-size:cover;
     background-attachment:cover;
 }
@@ -64,8 +64,8 @@ section{
 }
 .main h2{
     color:white;
-    font-size: 2.2em;
-    font-weight: 800;
+    font-size: 1.8em;
+    font-weight: 500;
     letter-spacing: 1px;
     margin-top: 10px;
     margin-bottom: 40px;
@@ -145,4 +145,3 @@ section{
         font-size: 10px;
     }
 }
-

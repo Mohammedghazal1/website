@@ -245,7 +245,7 @@ text-align: center;
 }
 
 
-@media (max-width:1023px){
+@media only screen and (max-width:1023px){
     header{
         padding: 12px 20px;
     }
@@ -275,7 +275,7 @@ text-align: center;
     }
 }
 
-@media (max-width:641px){
+@media only screen and (max-width:641px){
     body{
         font-size: 12px;
     }
@@ -289,7 +289,7 @@ text-align: center;
 }
 
 
-@media (max-width:300px){
+@media only screen and (max-width:300px){
     body{
         font-size: 10px;
     }

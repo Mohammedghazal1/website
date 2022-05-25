@@ -90,6 +90,10 @@ section{
     border-radius: 15px;
     margin-bottom: 40px;
     transition: 0.7s ease;
+
+}
+.main-btn:not(:last-of-type){
+    margin-right: 1em;
 }
 
 .main-btn:hover{
